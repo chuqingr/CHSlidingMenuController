@@ -1,0 +1,22 @@
+{
+  "name": "CHSlidingMenuController",
+  "version": "0.1.0",
+  "summary": "A short description of CHSlidingMenuController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/杨胜浩/CHSlidingMenuController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "杨胜浩": "chuqingr@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/杨胜浩/CHSlidingMenuController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CHSlidingMenuController/Classes/**/*"
+}

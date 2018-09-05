@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHSlidingMenuController'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of CHSlidingMenuController.'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/杨胜浩/CHSlidingMenuController'
+  s.homepage         = 'https://github.com/chuqingr/CHSlidingMenuController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '杨胜浩' => 'chuqingr@icloud.com' }
-  s.source           = { :git => 'https://github.com/杨胜浩/CHSlidingMenuController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chuqingr/CHSlidingMenuController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.platform         = :ios
   s.ios.deployment_target = '8.0'
+  s.requires_arc     = true
+  s.swift_version    = '4.0'
 
   s.source_files = 'CHSlidingMenuController/Classes/**/*'
   

@@ -1,0 +1,6 @@
+framework module CHSlidingMenuController {
+  umbrella header "CHSlidingMenuController-umbrella.h"
+
+  export *
+  module * { export * }
+}

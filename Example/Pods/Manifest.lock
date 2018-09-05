@@ -1,0 +1,16 @@
+PODS:
+  - CHSlidingMenuController (0.1.0)
+
+DEPENDENCIES:
+  - CHSlidingMenuController (from `../`)
+
+EXTERNAL SOURCES:
+  CHSlidingMenuController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHSlidingMenuController: a06c919c81a336a57ac0eff3c748efdcb38962b3
+
+PODFILE CHECKSUM: 72ee3c5105391d57f415600c9b2ff7f71c8e6082
+
+COCOAPODS: 1.5.3
